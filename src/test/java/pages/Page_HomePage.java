@@ -16,6 +16,15 @@ public class Page_HomePage {
     @FindBy(linkText = "REGISTER")
     private WebElement registerLink;
 
+    @FindBy(name = "userName")
+    private WebElement txtUserName;
+
+    @FindBy(name = "password")
+    private WebElement txtPasswprd;
+
+    @FindBy(name = "login")
+    private WebElement btnLogin;
+
     public Page_HomePage(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver, this);
@@ -27,6 +36,12 @@ public class Page_HomePage {
 
     public void goToRegistration(){
         registerLink.click();
+    }
+
+    public void singIn(String user, String pass){
+        txtUserName.sendKeys(user);
+        txtPasswprd.sendKeys(pass);
+        btnLogin.click();
     }
 
 }

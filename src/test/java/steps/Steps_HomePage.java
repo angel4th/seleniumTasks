@@ -10,9 +10,16 @@ public class Steps_HomePage extends DriverFactory {
     //private WebDriver driver;
 
     Page_HomePage homePage = new Page_HomePage(driver);
+
     @Given("^I am a new user$")
     public void iAmANewUser(){
         homePage.goToHomePage();
         homePage.goToRegistration();
+    }
+
+    @Given ("^I sign-in with my credentials ([^\"]*) and ([^\"]*)$")
+    public void iSigninWithCredentials(String username, String password){
+        homePage.goToHomePage();
+        homePage.singIn(username, password);
     }
 }

@@ -13,9 +13,9 @@ public class FirstSteps {
         //System.out.println("this will run before the actual scenario");
     }
 
-    /**@After
+    @After
     public void afterScenario() {
         new DriverFactory().destroyDriver();
         System.out.println("this will run after scneario is finished, even if it failed");
-    }*/
+    }
 }
