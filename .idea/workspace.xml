@@ -123,7 +123,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/features/RegisterNewUser.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -212,6 +212,7 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -390,7 +391,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18488000" />
+    <option name="totallyTimeSpent" value="18490000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -545,7 +546,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/features/RegisterNewUser.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
