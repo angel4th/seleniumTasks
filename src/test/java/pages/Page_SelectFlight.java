@@ -19,7 +19,7 @@ public class Page_SelectFlight {
 
     @FindBy(xpath = "/html/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/p/input")
     private WebElement btnContinue;
-
+    
     public Page_SelectFlight(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver, this);

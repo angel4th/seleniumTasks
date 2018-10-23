@@ -1,3 +1,4 @@
+@FirstFeature
 Feature: Register a new user
 
   Scenario: Create a new user in the page

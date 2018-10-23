@@ -1,4 +1,4 @@
-@BookAFlight
+@SecondFeature
 Feature: Book a flight
 
   Scenario: Sign-in and book a flight

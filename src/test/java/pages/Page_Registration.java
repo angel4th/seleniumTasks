@@ -1,13 +1,19 @@
 package pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Page_Registration {
     WebDriver driver;
+
+    Functions function = new Functions();
 
     @FindBy(name = "country")
     private WebElement countryDrop;
@@ -51,8 +57,7 @@ public class Page_Registration {
     @FindBy(name = "register")
     private WebElement btnRegister;
 
-    @FindBy(xpath = "/html/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[3]/td/p[1]/font/b")
-    private WebElement xpathWelcome;
+    String xpath = "/html/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[3]/td/p[1]/font/b";
 
     public Page_Registration(WebDriver driver){
         this.driver = driver;
@@ -60,22 +65,22 @@ public class Page_Registration {
     }
 
     public void fillRegistration(){
-        typeFN("Angel");
-        typeLN("Aguilar");
-        typePhone("9991086664");
-        typeEmail("asd@hotmail.com");
-        typeAddress1("Mulsay 1");
-        typeAddress2("Nueva Mulsay");
-        typeCity("Merida");
-        typeState("Yucatan");
-        typePostalCode("97249");
-        selectCountry(0);
-        typeUserName("angrarof");
-        typePassword("password123");
-        typeConfirmPassword("password123");
-        registrationBtn();
+        function.fillText(firstNameTxtBox,"Angel");
+        function.fillText(lastNameTxtBox,"Aguilar");
+        function.fillText(phoneTxtBox,"9991086664");
+        function.fillText(emailTxtBox,"asd@hotmail.com");
+        function.fillText(address1TxtBox,"Mulsay 1");
+        function.fillText(address2TxtBox,"Nueva Mulsay");
+        function.fillText(cityTxtBox, "Merida");
+        function.fillText(stateTxtBox,"Yucatan");
+        function.fillText(postalCodeTxtBox,"97249");
+        function.selectIndexOption(countryDrop,0);
+        function.fillText(userNameTxtBox,"angrarof");
+        function.fillText(passwordTxtBox,"password123");
+        function.fillText(confirmPasswordTxtBox,"password123");
+        function.selectClickOption(btnRegister);
     }
-
+    /*
     //Methods to fill the registration page
     public void typeFN(String firstName){
         firstNameTxtBox.sendKeys(firstName);
@@ -133,10 +138,12 @@ public class Page_Registration {
     public void registrationBtn(){
         btnRegister.click();
     }
-
+    */
     //validate the registration
 
     public boolean registrationComplete(){
-        return xpathWelcome.isDisplayed();
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
+        return element.isDisplayed();
     }
 }

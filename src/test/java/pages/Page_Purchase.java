@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -109,7 +110,8 @@ public class Page_Purchase {
         function.fillText(txtBillCity,"Merida");
         function.fillText(txtBillState,"Yucatan");
         function.fillText(txtBillZip,"99999");
-        function.selectIndexOption(billCountryDrop,214);
+        function.selectIndexOption(billCountryDrop,214);//214 is US
+
         function.selectClickOption(chkTicket);
         function.fillText(txtDelAddress,"Sambula");
         function.fillText(txtDelAddress2,"Opichen");
@@ -117,6 +119,13 @@ public class Page_Purchase {
         function.fillText(txtDelState,"Yucatan");
         function.fillText(txtDelZip,"99000");
         function.selectIndexOption(delCountryDrop,214);
+        try {
+            Alert alert = driver.switchTo().alert();
+            System.out.println("There is a alert");
+            alert.accept();
+        }catch (Exception e){
+            System.out.println(e);
+        }
         function.selectClickOption(btnPurchase);
     }
 

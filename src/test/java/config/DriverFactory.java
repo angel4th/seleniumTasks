@@ -19,7 +19,9 @@ public class DriverFactory {
         if (browser.equals("Firefox")) {
             System.setProperty("webdriver.gecko.driver",projectLocation+"\\lib\\geckodriver\\geckodriver.exe");
             //System.setProperty("webdriver.firefox.bin", "C:\\Program Files\\Mozilla Firefox\\firefox.exe");
+
             driver = new FirefoxDriver();
+            driver.manage().window().maximize();
         } else if (browser.equals("Chrome")){
             System.setProperty("webdriver.chrome.driver", projectLocation+"\\lib\\chromeDriver\\chromedriver.exe");
             driver = new ChromeDriver();
