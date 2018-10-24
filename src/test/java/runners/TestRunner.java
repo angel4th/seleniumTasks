@@ -10,13 +10,13 @@ import com.cucumber.listener.Reporter;
 @CucumberOptions(
         features={"src/test/java/features"},
         glue={"steps"},
-        plugin = {"com.cucumber.listener.ExtentCucumberFormatter:src/test/java/features/report.html" },
+        plugin = {"com.cucumber.listener.ExtentCucumberFormatter:src/test/java/report.html" },
         monochrome = true,
-
+        dryRun = true,
         tags = "@FirstFeature"
 )
 
-public class testRunner {
+public class TestRunner {
     @AfterClass
     public static void writeExtentReport() {
         Reporter.loadXMLConfig(System.getProperty("user.dir")+"\\src\\test\\java\\config\\extent-config.xml");

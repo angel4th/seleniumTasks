@@ -1,71 +1,40 @@
 package pages;
 
+import webElements.Elements_FlightFinder;
 import helpers.Functions;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
 public class Page_FlightFinder {
+
     WebDriver driver;
 
-    Functions function = new Functions();
-
-    @FindBy(xpath = "//input[@value='oneway']")
-    private WebElement rbtnType;
-
-    @FindBy(name = "passCount")
-    private WebElement passengersDrop;
-
-    @FindBy(name = "fromPort")
-    private WebElement fromPortDrop;
-
-    @FindBy(name = "fromMonth")
-    private WebElement fromMonthDrop;
-
-    @FindBy(name = "fromDay")
-    private WebElement fromDayDrop;
-
-    @FindBy(name = "toPort")
-    private WebElement toPortDrop;
-
-    @FindBy(name = "toMonth")
-    private WebElement toMonthDrop;
-
-    @FindBy(name = "toDay")
-    private WebElement toDayDrop;
-
-    @FindBy(xpath = "//input[@value='First']")
-    private WebElement serviceClassBtn;
-
-    @FindBy(name = "airline")
-    private WebElement airlineDrop;
-
-    @FindBy(xpath = "/html/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table/tbody/tr[14]/td/input")
-    private WebElement btnContinue;
+    Functions function = new Functions();//You can call functions
+    Elements_FlightFinder flightFinder = new Elements_FlightFinder();//The webElements on flight finder web page
 
     public Page_FlightFinder(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
+    //This function fill the blank with the information about the flight
     @Test
     public void fillFlight(){
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        function.selectClickOption(rbtnType);
-        function.selectIndexOption(passengersDrop, 0);
-        function.selectIndexOption(fromPortDrop, 3);
-        function.selectIndexOption(fromMonthDrop, 3);
-        function.selectIndexOption(fromDayDrop,5);
-        function.selectIndexOption(toPortDrop,3);
-        function.selectIndexOption(toMonthDrop,3);
-        function.selectIndexOption(toDayDrop,5);
-        function.selectClickOption(serviceClassBtn);
-        function.selectIndexOption(airlineDrop,2);
-        function.selectClickOption(btnContinue);
+        function.selectClickOption(flightFinder.rbtnTypeOneWay);
+        function.selectIndexOption(flightFinder.passengersDrop, 0);
+        function.selectIndexOption(flightFinder.fromPortDrop, 3);
+        function.selectIndexOption(flightFinder.fromMonthDrop, 3);
+        function.selectIndexOption(flightFinder.fromDayDrop,5);
+        function.selectIndexOption(flightFinder.toPortDrop,3);
+        function.selectIndexOption(flightFinder.toMonthDrop,3);
+        function.selectIndexOption(flightFinder.toDayDrop,5);
+        function.selectClickOption(flightFinder.serviceClassBtn);
+        function.selectIndexOption(flightFinder.airlineDrop,2);
+        function.selectClickOption(flightFinder.btnContinue);
     }
 
 

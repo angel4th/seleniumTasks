@@ -3,30 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="0b16f280-0e72-4d86-9cb9-da8e7ff0da98" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/config/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/DriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/features/RegisterNewUser.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/RegisterNewUser.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/Functions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/NewUserData.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/Page_FlightFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Page_FlightFinder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/Page_HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Page_HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/Page_Purchase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Page_Purchase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/Page_Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Page_Registration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/Page_SelectFlight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Page_SelectFlight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/testRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/testRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/FirstSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/FirstSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Steps_HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Steps_HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Steps_Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Steps_Registration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/config/DriverFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/config/DriverFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/Functions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/Page_FlightFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/Page_FlightFinder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/Page_HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/Page_HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/Page_Purchase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/Page_Purchase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/Page_Registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/Page_Registration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/Page_SelectFlight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/Page_SelectFlight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/testRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/helpers/NewUserData.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/runners/testRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/testRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/FirstSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/FirstSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/Steps_HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/Steps_HomePage.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,34 +36,34 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="6" />
-          <entry key="feature" value="793" />
-          <entry key="java" value="7831" />
+          <entry key="dummy" value="9" />
+          <entry key="feature" value="857" />
+          <entry key="java" value="8287" />
           <entry key="properties" value="70" />
           <entry key="xml" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="793" />
-          <entry key="JAVA" value="7831" />
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Cucumber" value="857" />
+          <entry key="JAVA" value="8287" />
+          <entry key="PLAIN_TEXT" value="9" />
           <entry key="Properties" value="70" />
           <entry key="XML" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="feature" value="16" />
-          <entry key="java" value="75" />
+          <entry key="feature" value="17" />
+          <entry key="java" value="84" />
           <entry key="properties" value="5" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Cucumber" value="16" />
-          <entry key="JAVA" value="75" />
+          <entry key="Cucumber" value="17" />
+          <entry key="JAVA" value="84" />
           <entry key="Properties" value="5" />
           <entry key="XML" value="6" />
         </counts>
@@ -89,10 +76,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/Steps_Registration.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/Page_Registration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="392">
+              <caret line="47" column="108" selection-start-line="47" selection-start-column="108" selection-end-line="47" selection-end-column="108" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,19 +88,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/features/RegisterNewUser.feature">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/Page_SelectFlight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/Page_Registration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="323">
+              <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,10 +100,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/runners/testRunner.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/webElements/Elements_SelectFlight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,10 +112,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/FirstSteps.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/webElements/Elements_Registration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="816">
+              <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,50 +124,63 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/helpers/Functions.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/Page_HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="35">
+              <caret line="12" column="57" lean-forward="true" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#223#224#0" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#854#855#0" expanded="true" />
+                <element signature="e#912#913#0" expanded="true" />
+                <element signature="e#958#959#0" expanded="true" />
+                <element signature="e#994#995#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/helpers/NewUserData.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/Page_Purchase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="816">
+              <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
               <folding>
-                <element signature="e#195#196#0" expanded="true" />
-                <element signature="e#225#226#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#381#382#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#443#444#0" expanded="true" />
-                <element signature="e#471#472#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-                <element signature="e#539#540#0" expanded="true" />
-                <element signature="e#574#575#0" expanded="true" />
-                <element signature="e#605#606#0" expanded="true" />
-                <element signature="e#634#635#0" expanded="true" />
-                <element signature="e#659#660#0" expanded="true" />
-                <element signature="e#691#692#0" expanded="true" />
-                <element signature="e#719#720#0" expanded="true" />
-                <element signature="e#754#755#0" expanded="true" />
-                <element signature="e#785#786#0" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
-                <element signature="e#845#846#0" expanded="true" />
-                <element signature="e#880#881#0" expanded="true" />
-                <element signature="e#911#912#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#4328#4329#0" expanded="true" />
+                <element signature="e#4359#4360#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/webElements/Elements_Purchase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="565">
+              <caret line="82" column="10" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/features/BookAflight.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/webElements/Elements_HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -198,8 +189,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pages/Page_FlightFinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-387">
-              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+            <state relative-caret-position="374">
+              <caret line="22" column="72" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -216,6 +207,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>private</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -229,11 +225,7 @@
         <option value="$PROJECT_DIR$/src/test/java/config/PropertiesFile.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/Page_SelectFligh.java" />
         <option value="$PROJECT_DIR$/src/test/java/features/BookAflight.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/Page_Purchase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/Page_SelectFlight.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/Page_FlightFinder.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/Steps_FlightFinder.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/Page_HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/Steps_HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/FirstSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/Functions.java" />
@@ -242,11 +234,21 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/config/extent-config.xml" />
         <option value="$PROJECT_DIR$/src/test/java/helpers/NewUserData.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/Page_Registration.java" />
-        <option value="$PROJECT_DIR$/src/test/java/runners/testRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/helpers/Functions.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/Steps_Registration.java" />
+        <option value="$PROJECT_DIR$/src/test/java/runners/testRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/features/RegisterNewUser.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/elements/Elements_FlightFinder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/Page_FlightFinder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/elements/Elements_HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/Page_HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/elements/Elements_Purchase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/Page_Purchase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/webElements/Elements_Registration.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/Page_Registration.java" />
+        <option value="$PROJECT_DIR$/src/test/java/webElements/Elelemts_SelectFlight.java" />
+        <option value="$PROJECT_DIR$/src/test/java/webElements/Elements_SelectFlight.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/Page_SelectFlight.java" />
       </list>
     </option>
   </component>
@@ -360,6 +362,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="steps" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Task1Cucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task1Cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webElements" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -395,7 +405,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="testRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Task1Cucumber" />
       <extension name="coverage">
         <pattern>
@@ -404,14 +414,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.testRunner" />
+      <option name="MAIN_CLASS_NAME" value="runners.TestRunner" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.testRunner" />
+        <item itemvalue="JUnit.TestRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -432,9 +442,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="testRunner - 2018.10.23 at 16h 47m 04s.xml">
-      <configuration name="testRunner" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="testRunner - 2018.10.23 at 16h 47m 46s.xml">
       <configuration name="testRunner" configurationId="JUnit" />
     </history-entry>
@@ -462,9 +469,12 @@
     <history-entry file="testRunner - 2018.10.24 at 10h 09m 10s.xml">
       <configuration name="testRunner" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="testRunner - 2018.10.24 at 10h 15m 13s.xml">
+      <configuration name="testRunner" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64302000" />
+    <option name="totallyTimeSpent" value="66253000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -477,11 +487,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="UI Designer" order="0" />
       <window_info id="Designer" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.4987775" visible="true" weight="0.25718608" />
-      <window_info id="Favorites" order="3" sideWeight="0.5012225" side_tool="true" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.79462105" visible="true" weight="0.25718608" />
+      <window_info id="Favorites" order="3" sideWeight="0.20537898" side_tool="true" weight="0.25718608" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.3295082" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3295082" />
@@ -489,7 +500,7 @@
       <window_info anchor="bottom" id="Messages" order="3" weight="0.3295082" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
@@ -620,57 +631,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/Page_Purchase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="133" column="24" selection-start-line="133" selection-start-column="24" selection-end-line="133" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4302#4303#0" expanded="true" />
-            <element signature="e#4333#4334#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/Steps_HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/Page_SelectFlight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/BookAflight.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/Page_HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="45" column="25" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="45" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#854#855#0" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#994#995#0" expanded="true" />
-            <element signature="e#1203#1204#0" expanded="true" />
-            <element signature="e#1251#1252#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -703,16 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/Page_FlightFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-387">
-          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -762,10 +718,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/runners/testRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/helpers/Functions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/runners/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -782,33 +751,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/Page_Registration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/helpers/Functions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/features/RegisterNewUser.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/webElements/Elements_FlightFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/Page_FlightFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="72" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/BookAflight.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/webElements/Elements_HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/Page_HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="12" column="57" lean-forward="true" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#912#913#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#994#995#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/webElements/Elements_Purchase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="82" column="10" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/Page_Purchase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4328#4329#0" expanded="true" />
+            <element signature="e#4359#4360#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/webElements/Elements_Registration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/Page_Registration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="47" column="108" selection-start-line="47" selection-start-column="108" selection-end-line="47" selection-end-column="108" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/webElements/Elements_SelectFlight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/Page_SelectFlight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
