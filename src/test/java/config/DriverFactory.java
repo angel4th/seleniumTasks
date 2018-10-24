@@ -25,6 +25,7 @@ public class DriverFactory {
         } else if (browser.equals("Chrome")){
             System.setProperty("webdriver.chrome.driver", projectLocation+"\\lib\\chromeDriver\\chromedriver.exe");
             driver = new ChromeDriver();
+            driver.manage().window().maximize();
         }else{
             System.out.println("can't read browser type");
         }

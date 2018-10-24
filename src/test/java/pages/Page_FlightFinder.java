@@ -1,9 +1,11 @@
 package pages;
 
+import helpers.Functions;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
@@ -50,6 +52,7 @@ public class Page_FlightFinder {
         PageFactory.initElements(driver, this);
     }
 
+    @Test
     public void fillFlight(){
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         function.selectClickOption(rbtnType);

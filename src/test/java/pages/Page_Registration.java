@@ -1,14 +1,14 @@
 package pages;
 
+import helpers.Functions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
 
 public class Page_Registration {
     WebDriver driver;
@@ -63,84 +63,28 @@ public class Page_Registration {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
-
-    public void fillRegistration(){
-        function.fillText(firstNameTxtBox,"Angel");
-        function.fillText(lastNameTxtBox,"Aguilar");
-        function.fillText(phoneTxtBox,"9991086664");
-        function.fillText(emailTxtBox,"asd@hotmail.com");
-        function.fillText(address1TxtBox,"Mulsay 1");
-        function.fillText(address2TxtBox,"Nueva Mulsay");
-        function.fillText(cityTxtBox, "Merida");
-        function.fillText(stateTxtBox,"Yucatan");
-        function.fillText(postalCodeTxtBox,"97249");
-        function.selectIndexOption(countryDrop,0);
-        function.fillText(userNameTxtBox,"angrarof");
-        function.fillText(passwordTxtBox,"password123");
-        function.fillText(confirmPasswordTxtBox,"password123");
+    @Test
+    public void fillRegistration(String fn,String ln,String pn,String email,String add1,String add2,String city,
+                                 String st,String pc,String country,String us,String pw)
+    {
+        function.fillText(firstNameTxtBox,fn);
+        function.fillText(lastNameTxtBox,ln);
+        function.fillText(phoneTxtBox,pn);
+        function.fillText(emailTxtBox,email);
+        function.fillText(address1TxtBox,add1);
+        function.fillText(address2TxtBox,add2);
+        function.fillText(cityTxtBox, city);
+        function.fillText(stateTxtBox,st);
+        function.fillText(postalCodeTxtBox,pc);
+        function.selectValueOption(countryDrop, country);
+        function.fillText(userNameTxtBox,us);
+        function.fillText(passwordTxtBox,pw);
+        function.fillText(confirmPasswordTxtBox,pw);
         function.selectClickOption(btnRegister);
     }
-    /*
-    //Methods to fill the registration page
-    public void typeFN(String firstName){
-        firstNameTxtBox.sendKeys(firstName);
-    }
 
-    public void typeLN(String lastName){
-        lastNameTxtBox.sendKeys(lastName);
-    }
-
-    public void typePhone(String phone){
-        phoneTxtBox.sendKeys(phone);
-    }
-
-    public void typeEmail(String email){
-        emailTxtBox.sendKeys(email);
-    }
-
-    public void typeAddress1(String address1){
-        address1TxtBox.sendKeys(address1);
-    }
-
-    public void typeAddress2(String address2){
-        address2TxtBox.sendKeys(address2);
-    }
-
-    public void typeCity(String city){
-        cityTxtBox.sendKeys(city);
-    }
-
-    public void typeState(String state){
-        stateTxtBox.sendKeys(state);
-    }
-
-    public void typePostalCode(String pc){
-        postalCodeTxtBox.sendKeys(pc);
-    }
-
-    public void selectCountry(int index){
-        Select country = new Select(countryDrop);
-        country.selectByIndex(index);
-    }
-
-    public void typeUserName(String user){
-        userNameTxtBox.sendKeys(user);
-    }
-
-    public void typePassword(String password){
-        passwordTxtBox.sendKeys(password);
-    }
-
-    public void typeConfirmPassword(String cPassword){
-        confirmPasswordTxtBox.sendKeys(cPassword);
-    }
-
-    public void registrationBtn(){
-        btnRegister.click();
-    }
-    */
     //validate the registration
-
+    @Test
     public boolean registrationComplete(){
         WebDriverWait wait = new WebDriverWait(driver, 5);
         WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));

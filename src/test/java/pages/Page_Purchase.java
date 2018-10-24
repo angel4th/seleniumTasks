@@ -1,10 +1,12 @@
 package pages;
 
+import helpers.Functions;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
 
 public class Page_Purchase {
     WebDriver driver;
@@ -93,7 +95,7 @@ public class Page_Purchase {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
-
+    @Test
     public void purchase(){
         function.fillText(txtFirst,  "Angel");
         function.fillText(txtLastName,  "Aguilar");
@@ -128,7 +130,7 @@ public class Page_Purchase {
         }
         function.selectClickOption(btnPurchase);
     }
-
+    @Test
     public void backHome(){
         btnHome.click();
     }

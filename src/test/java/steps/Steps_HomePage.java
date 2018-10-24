@@ -2,7 +2,6 @@ package steps;
 
 import config.DriverFactory;
 import cucumber.api.java.en.*;
-import org.openqa.selenium.WebDriver;
 import pages.Page_HomePage;
 
 public class Steps_HomePage extends DriverFactory {

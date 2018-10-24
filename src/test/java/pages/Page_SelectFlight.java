@@ -1,9 +1,11 @@
 package pages;
 
+import helpers.Functions;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
 
 public class Page_SelectFlight {
 
@@ -24,7 +26,7 @@ public class Page_SelectFlight {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
-
+    @Test
     public void selectOptions(){
         function.selectClickOption(rbtnDepart);
         function.selectClickOption(rbtnReturn);

@@ -1,4 +1,4 @@
-package pages;
+package helpers;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
@@ -16,6 +16,11 @@ public class Functions {
     public void selectIndexOption(WebElement web, int index){
         Select var = new Select(web);
         var.selectByIndex(index);
+    }
+
+    public void selectValueOption(WebElement web, String value){
+        Select var = new Select(web);
+        var.selectByVisibleText(value);
     }
 
 }
