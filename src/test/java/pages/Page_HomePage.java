@@ -1,20 +1,18 @@
 package pages;
 
 
+import config.DriverFactory;
 import webElements.Elements_HomePage;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
-public class Page_HomePage {
+public class Page_HomePage extends DriverFactory {
 
-    WebDriver driver;
-
-    Elements_HomePage homePage = new Elements_HomePage();
+    Elements_HomePage homePage = new Elements_HomePage(driver);
 
     public Page_HomePage(WebDriver driver){
         this.driver = driver;
-        PageFactory.initElements(driver, this);
+
     }
 
     @Test

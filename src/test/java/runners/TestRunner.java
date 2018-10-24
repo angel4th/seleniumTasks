@@ -12,8 +12,8 @@ import com.cucumber.listener.Reporter;
         glue={"steps"},
         plugin = {"com.cucumber.listener.ExtentCucumberFormatter:src/test/java/report.html" },
         monochrome = true,
-        dryRun = true,
-        tags = "@FirstFeature"
+
+        tags = "@SecondFeature"
 )
 
 public class TestRunner {

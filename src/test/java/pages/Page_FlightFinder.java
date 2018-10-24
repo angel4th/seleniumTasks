@@ -1,5 +1,6 @@
 package pages;
 
+import config.DriverFactory;
 import webElements.Elements_FlightFinder;
 import helpers.Functions;
 import org.openqa.selenium.WebDriver;
@@ -8,12 +9,12 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class Page_FlightFinder {
+public class Page_FlightFinder extends DriverFactory {
 
-    WebDriver driver;
+    //WebDriver driver;
 
     Functions function = new Functions();//You can call functions
-    Elements_FlightFinder flightFinder = new Elements_FlightFinder();//The webElements on flight finder web page
+    Elements_FlightFinder flightFinder = new Elements_FlightFinder(driver);//The webElements on flight finder web page
 
     public Page_FlightFinder(WebDriver driver){
         this.driver = driver;

@@ -1,5 +1,6 @@
 package pages;
 
+import config.DriverFactory;
 import webElements.Elements_Purchase;
 import helpers.Functions;
 import org.openqa.selenium.Alert;
@@ -7,16 +8,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
-public class Page_Purchase {
-    WebDriver driver;
+public class Page_Purchase extends DriverFactory {
+
 
     Functions function = new Functions();
-    Elements_Purchase purchase = new Elements_Purchase();
+    Elements_Purchase purchase = new Elements_Purchase(driver);
 
 
     public Page_Purchase(WebDriver driver){
         this.driver = driver;
-        PageFactory.initElements(driver, this);
+
     }
 
     @Test

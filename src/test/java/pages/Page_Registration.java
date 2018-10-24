@@ -1,24 +1,23 @@
 package pages;
 
+import config.DriverFactory;
 import helpers.Functions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 import webElements.Elements_Registration;
 
-public class Page_Registration {
-    WebDriver driver;
+public class Page_Registration extends DriverFactory {
+
 
     Functions function = new Functions();
-    Elements_Registration registration = new Elements_Registration();
+    Elements_Registration registration = new Elements_Registration(driver);
 
     public Page_Registration(WebDriver driver){
         this.driver = driver;
-        PageFactory.initElements(driver, this);
     }
 
     @Test

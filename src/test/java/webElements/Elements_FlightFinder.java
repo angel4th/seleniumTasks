@@ -1,9 +1,13 @@
 package webElements;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class Elements_FlightFinder {
+    WebDriver driver;
+
     @FindBy(xpath = "//input[@value='oneway']")
     public WebElement rbtnTypeOneWay;
 
@@ -36,4 +40,9 @@ public class Elements_FlightFinder {
 
     @FindBy(xpath = "/html/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table/tbody/tr[14]/td/input")
     public WebElement btnContinue;
+
+    public Elements_FlightFinder(WebDriver driver){
+        this.driver = driver;
+        PageFactory.initElements(driver,this);
+    }
 }

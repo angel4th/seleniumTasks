@@ -1,9 +1,13 @@
 package webElements;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class Elements_Purchase {
+    WebDriver driver;
+
     @FindBy(xpath = "/html/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table/tbody/tr[4]/td/table/tbody/tr[2]/td[1]/input")
     public WebElement txtFirst;
 
@@ -81,4 +85,10 @@ public class Elements_Purchase {
 
     @FindBy(xpath = "/html/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr[1]/td[2]/table/tbody/tr[7]/td/table/tbody/tr/td[2]/a/img")
     public WebElement btnHome;
+
+    public Elements_Purchase(WebDriver driver){
+        this.driver=driver;
+        PageFactory.initElements(driver,this);
+    }
+
 }

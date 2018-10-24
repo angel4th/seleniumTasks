@@ -1,9 +1,13 @@
 package webElements;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class Elements_Registration {
+    WebDriver driver;
+
     @FindBy(name = "country")
     public WebElement countryDrop;
 
@@ -48,4 +52,8 @@ public class Elements_Registration {
 
     public String xpath = "/html/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[3]/td/p[1]/font/b";
 
+    public Elements_Registration(WebDriver driver){
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
+    }
 }

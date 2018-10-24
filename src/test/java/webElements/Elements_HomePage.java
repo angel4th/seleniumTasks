@@ -1,11 +1,14 @@
 package webElements;
 
+import config.DriverFactory;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
-public class Elements_HomePage {
-    @FindBy(xpath = "//a[@href='/mercuryregister.php']")
-    public WebElement hrefRegistration;
+public class Elements_HomePage{
+    WebDriver driver;
 
     @FindBy(linkText = "REGISTER")
     public WebElement registerLink;
@@ -18,4 +21,9 @@ public class Elements_HomePage {
 
     @FindBy(name = "login")
     public WebElement btnLogin;
+
+    public Elements_HomePage(WebDriver driver){
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
+    }
 }
